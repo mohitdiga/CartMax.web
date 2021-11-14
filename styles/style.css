@@ -35,6 +35,24 @@ body,
   text-align:center;
 }
 
+.header_landing{
+  background-image: linear-gradient(to right, #FDFAEE , #FDFAEE, #E0F2F3);
+  
+}
+
+.footer_landing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second_half_landing{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .arrow {
   cursor: pointer;
   position: absolute;
@@ -58,14 +76,14 @@ body,
     right: 0;
     margin-right: 30px;
   }
-  hr.solid {
-    border-top: 3px solid #bbb;
-  }
+
   
   body {
     margin: 0;
     font-family: "Red Hat Text",sans-serif;
     letter-spacing: 2px;
+    color: #443535;
+    
   }
   
   .topnav {
@@ -73,11 +91,41 @@ body,
     background-color: FFFFFF;
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 20px 10px 20px;
   }
   
   .nav-header{
 
+  }
+
+  .set_location_btn{
+    background-color: #A9D0D3;
+    color: #FCFBEF;
+    font-size: medium;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: 0px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .classic_link{
+    color:  #A9D0D3;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .header_link{
+    color: #000000;
+    margin: 0 50px 0 10px;
+    font-size: 16 px;
+  }
+  
+  .header_link:hover{
+    color:  #A9D0D3;
+    text-decoration: none;
   }
 
   .logo{
@@ -85,10 +133,7 @@ body,
   }
   .location{
     margin: 10px;
-  }
-
-  .nav-menu{
-
+    font-size: 14px;
   }
 
   .grid-container {
@@ -111,32 +156,36 @@ body,
     overflow: hidden;
     background-color: FFFFFF;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: space-between;
-    margin: 10px;
-    padding: 10px;
+    justify-items: center;
+    margin: 20px 10px 0px 10px;
+    padding: 0px;
+    height: 35px;
   }
 
   .storehead{
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: end;
+    margin-left: 20px;
   }
 
   .storefilter{
     display: flex;
     justify-content: end;
     align-items: center;
+    margin-right: 50px;
   }
 
   .storefilter a {
     float: right;
     color: #000000;
     text-align: center;
-    padding: 30px 32px;
+    padding: 0px 20px;
     text-decoration: none;
     font-size: 17px;
-    
   }
   
   .storefilter a:hover {
@@ -150,5 +199,6 @@ body,
     color: white;
   }
 
-
-  
+  .card-container{
+    padding: 0 50px 0 50px;
+  }

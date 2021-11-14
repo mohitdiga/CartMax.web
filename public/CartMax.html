@@ -1,64 +1,58 @@
 <!Doctype html>
 <head>
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Text">
+  <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
-    .p1 {
-      color: 433F3F;
-font-family: "Red Hat Text",sans-serif;
-text-align: center;
-font-size: 30px;
-    }
-    .p2 {
-      font-family: "Red Hat Text",sans-serif;
-      color: #808080;
-      text-align: center;
-    }
-    .button {
-      background-color: #0066ff;
-      border-radius: 4px;
-  color: white;
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: "Red Hat Text",sans-serif;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-    }
+      @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+      .p1 {
+        text-align: center;
+        font-size: 30px;
+      }
+      .p2 {
+        color: #808080;
+        text-align: center;
+      }
   </style>
-  <link rel="stylesheet" href="style.css">
   <title>CartMax Shopping</title>
 </head>
+
 <body>
-  <div class="wrap">
-    <div id="arrow-left" class="arrow"></div>
-    <div id="slider">
-      <div class="slide slide1">
-        <div class="slide-content">
-          <span></span>
+  <div class="container-fluid">
+    <div class="header_landing">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="../res/public/illustration_home.png" height="80%">
+        </div>
+        <div class="col-md-6 second_half_landing">
+          <img src="../res/public/logo_landing.png">
+          <br><br><br>
+          <img src="../res/public/tagline_landing.png">
         </div>
       </div>
-      <div class="slide slide2">
-        <div class="slide-content">
-          <span></span>
-        </div>
-      </div>
+
     </div>
-    <div id="arrow-right" class="arrow"></div>
   </div>
-  <hr class="solid">
-  <div>
+  
+  <hr>
+
+  <div class="footer_landing">
     <p class="p1">
-      Order from the best stores in your location<br><br>
-      <button class="button" type="button"
+      Order from the best stores in your location</p>
+      <br>
+      <button class="set_location_btn" type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
 Set up Location</button>
-    </p>
+    <br>
     <p class="p2">
-      Already have an account? <a href="CartMax.html">Login</a>
+      Already have an account? <a class="classic_link" href="CartMax.html">Login</a>
     </p>
   </div>
+
+
   <script>
     let sliderImages = document.querySelectorAll(".slide"),
   arrowLeft = document.querySelector("#arrow-left"),
