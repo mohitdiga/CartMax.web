@@ -1,0 +1,204 @@
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 30vh;
+  
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("pic.png");
+}
+.slide2 {
+  background-image: url("motto.png");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  text-align:center;
+}
+
+.header_landing{
+  background-image: linear-gradient(to right, #FDFAEE , #FDFAEE, #E0F2F3);
+  
+}
+
+.footer_landing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second_half_landing{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent rgb(61, 60, 60) transparent transparent;
+    left: 0;
+    margin-left: 30px;
+  }
+
+  #arrow-right {
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent rgb(61, 60, 60);
+    right: 0;
+    margin-right: 30px;
+  }
+
+  
+  body {
+    margin: 0;
+    font-family: "Red Hat Text",sans-serif;
+    letter-spacing: 2px;
+    color: #443535;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 10px 20px;
+  }
+  
+  .nav-header{
+
+  }
+
+  .set_location_btn{
+    background-color: #A9D0D3;
+    color: #FCFBEF;
+    font-size: medium;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: 0px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .classic_link{
+    color:  #A9D0D3;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .header_link{
+    color: #000000;
+    margin: 0 50px 0 10px;
+    font-size: 16 px;
+  }
+  
+  .header_link:hover{
+    color:  #A9D0D3;
+    text-decoration: none;
+  }
+
+  .logo{
+    margin: 10px;
+  }
+  .location{
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  .grid-container {
+    display: flex;
+    height: 180%;
+    background-color: #242F30;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .grid-item {
+    
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .storenav  {
+    overflow: hidden;
+    background-color: FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 20px 10px 0px 10px;
+    padding: 0px;
+    height: 35px;
+  }
+
+  .storehead{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    margin-left: 20px;
+  }
+
+  .storefilter{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .storefilter a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .storefilter a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .storefilter a.active {
+    background-color: #0acaec;
+    color: white;
+  }
+
+  .card-container{
+    padding: 0 50px 0 50px;
+  }
