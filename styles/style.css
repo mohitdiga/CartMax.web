@@ -80,7 +80,7 @@ body,
   
   body {
     margin: 0;
-    font-family: "Red Hat Text",sans-serif;
+    font-family: 'Red Hat Text', serif;
     letter-spacing: 2px;
     color: #443535;
     
@@ -109,6 +109,24 @@ body,
     width: 300px;
     border-radius: 10px;
     font-size: 18px;
+  }
+
+  .input_contact{
+    width: 300px;
+    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-left: 0px solid black;
+    padding: 1% 0 1% 0.5%;
+  }
+
+  .input_contact:focus{
+    width: 300px;
+    border-bottom: 2px solid blueviolet;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-left: 0px solid white;
+    padding: 1% 0 1% 1%;
   }
 
   .classic_link{
